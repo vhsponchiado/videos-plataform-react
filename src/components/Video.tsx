@@ -1,7 +1,6 @@
-import { Player, Youtube, DefaultUi } from '@vime/react'
-import { CaretRight, DiscordLogo, FileArrowDown, Headset } from 'phosphor-react'
-import '@vime/core/themes/default.css'
+import { CaretRight, DiscordLogo, FileArrowDown, Headset } from 'phosphor-react';
 import { useGetLessonBySlugQuery } from '../graphql/generated';
+import YouTube from 'react-youtube';
 
 
 interface VideoProps {
@@ -23,15 +22,13 @@ export function Video(props: VideoProps) {
             </div>
         </>
     }
+   
 
     return <>
         <div className="flex-1 bg-blurVideos bg-no-repeat bg-cover">
             <div className="bg-dark flex justify-center">
                 <div className="h-full w-full max-w-[1100px] max-h-[60vh] aspect-video">
-                    <Player>
-                        <Youtube videoId={data.lesson.videoId} />
-                        <DefaultUi />
-                    </Player>
+                     <YouTube videoId={data.lesson.videoId} opts={{position: 'relative',width: '100%', height: '600px'}}/>
                 </div>
             </div>
 
