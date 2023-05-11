@@ -7,7 +7,7 @@ export default {
     extend: {
 
       backgroundImage:{
-        blur: 'url(/src/assets/blur_background.png)',
+        blur: 'url(../assets/blur_background.png)',
       },
 
       fontFamily:{

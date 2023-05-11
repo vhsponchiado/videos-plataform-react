@@ -35,7 +35,7 @@ export function Subscribe() {
                     </h1>
 
                     <p className="mt-4 text-gray-400 leadin-relaxed">
-                        Em apenas uma semana você vai dominar os recursos do sistema e vai sair na frente da sua <strong className="text-blue-500">concorrência</strong> .
+                        Em apenas uma semana você vai dominar os recursos da ferramenta e vai sair na frente da sua <strong className="text-blue-500">concorrência</strong> .
                     </p>
                 </div>
 
@@ -61,7 +61,7 @@ export function Subscribe() {
                         <button
                             type="submit"
                             disabled={loading}
-                            className="bg-green-500 text-sm uppercase font-bold py-4 rounded hover:bg-green-700 transition-colors disabled:opacity-50"
+                            className="bg-blue-700 text-sm uppercase font-bold py-4 rounded hover:bg-blue-800 transition-colors disabled:opacity-50"
                         >
                             Garantir minha vaga
                         </button>
@@ -70,7 +70,7 @@ export function Subscribe() {
                 </div>
 
             </div>
-            <img src="/src/assets/ram_mockup.png" className="mt-10" alt="0" />
+            <img src="../assets/logos_cascata.png" className="mt-10 h-60" alt="0" />
         </div>
     </>
 }

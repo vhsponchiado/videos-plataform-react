@@ -16,7 +16,7 @@ export function Event() {
                     <Video lessonSlug={slug} />
                     : <div className="flex-1">
                         <div className="flex justify-center mt-[25vh]">
-                        <img src="/src/assets/Not_Found.png" className="max-w-[250px]" alt="0" />
+                        <img src="../assets/Not_Found.png" className="max-w-[250px]" alt="0" />
                         </div> 
                       </div>}
                 <div className="hidden xl:flex">
