@@ -3,6 +3,7 @@ import { useGetLessonBySlugQuery } from '../graphql/generated';
 import YouTube from 'react-youtube';
 
 
+
 interface VideoProps {
     lessonSlug: string;
 }
@@ -74,7 +75,7 @@ export function Video(props: VideoProps) {
                 <div className=" flex flex-col  xl:gap-8 mt-20 xl:grid xl:grid-cols-2"> 
 
                     <a href="#" className='bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors'>
-                        <div className="bg-green-700 h-full p-6 flex items-center">
+                        <div className="bg-green-700 max-h-full p-6 flex items-center">
                             <FileArrowDown size={40} />
                         </div>
 
@@ -91,14 +92,14 @@ export function Video(props: VideoProps) {
                     </a>
 
                     <a href="#" className='bg-gray-700 rounded overflow-hidden flex items-stretch gap-6 hover:bg-gray-600 transition-colors mt-4 xl:mt-0'>
-                        <div className="bg-green-700 h-full p-6 flex items-center">
+                        <div className="bg-green-700 max-h-full p-6 flex items-center">
                             <FileArrowDown size={40} />
                         </div>
 
                         <div className="py-6 leading-relaxed">
                             <strong className="text-2xl"> Wallpaper exclusivos </strong>
                             <p className="text-sm text-gray-200 mt-2">
-                                Baixe wallpapers exclusivos da RAMSolution e personalize sua máquina.
+                                Baixe wallpapers exclusivos da Avantpro e personalize sua máquina.
                             </p>
                         </div>
 
